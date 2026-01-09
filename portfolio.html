@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Dr Reza Kashtiban</title>
+  <meta name="description" content="Research portfolio and highlights: confined perovskites, 1D/2D heterostructures, in-situ device microscopy." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <div class="brand">
+        <a href="index.html" class="brand__name">Dr Reza Kashtiban</a>
+        <span class="brand__tag">Research portfolio</span>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#pubs">Publications</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap content content--wide">
+    <section class="card">
+      <h1>Research portfolio</h1>
+      <p class="muted">
+        Selected projects aligned to your current “Research Highlights” themes: confined 1D materials, picoperovskites,
+        radial vdW heterostructures, in-situ device characterisation, and templated thermoelectrics.
+      </p>
+    </section>
+
+    <section class="grid3">
+      <!-- Card 1 -->
+      <button class="proj" data-modal="m-pico" type="button">
+        <img src="assets/images/pico.png" alt="Picoperovskite motif figure" />
+        <div class="proj__body">
+          <h2 class="h3">Confined halide perovskites (“picoperovskites”)</h2>
+          <p class="muted">Encapsulation + atomic-resolution EM to reveal ultra-small perovskite motifs inside nanotubes.</p>
+          <span class="proj__cta">View project</span>
+        </div>
+      </button>
+
+      <!-- Card 2 -->
+      <button class="proj" data-modal="m-nw" type="button">
+        <img src="assets/images/templated-bi2te3.jpg" alt="Templated nanowires montage" />
+        <div class="proj__body">
+          <h2 class="h3">Confined extreme nanowires</h2>
+          <p class="muted">1D atomic chains and motifs formed in ultranarrow templates with enhanced stability.</p>
+          <span class="proj__cta">View project</span>
+        </div>
+      </button>
+
+      <!-- Card 3 -->
+      <button class="proj" data-modal="m-radial" type="button">
+        <img src="assets/images/radial-vdw.jpg" alt="Radial vdW heterostructure and spectra" />
+        <div class="proj__body">
+          <h2 class="h3">1D radial van der Waals heterostructures</h2>
+          <p class="muted">CNT/BN/MoS₂ radial stacks enabling ultrafast optoelectronics at atomic scale.</p>
+          <span class="proj__cta">View project</span>
+        </div>
+      </button>
+
+      <!-- Card 4 -->
+      <button class="proj" data-modal="m-gst" type="button">
+        <img src="assets/images/gst-device.jpg" alt="Phase-change device microscopy montage" />
+        <div class="proj__body">
+          <h2 class="h3">In-situ microscopy of phase-change devices</h2>
+          <p class="muted">Elemental mapping + structure evolution linked to device behaviour and reliability.</p>
+          <span class="proj__cta">View project</span>
+        </div>
+      </button>
+    </section>
+  </main>
+
+  <!-- MODALS -->
+  <div class="modal" id="m-pico" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Picoperovskites project">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel">
+      <button class="modal__close" type="button" data-close aria-label="Close">×</button>
+      <h2>Confined halide perovskites (“picoperovskites”)</h2>
+      <p>
+        Confined halide perovskites and composite 1D heterostructures enabling tunable optoelectronic behaviour at the nanoscale.
+      </p>
+      <h3 class="h3">Key points</h3>
+      <ul class="bullets">
+        <li>Atomic-scale TEM/STEM + spectroscopy to resolve structure/defects in confined motifs.</li>
+        <li>Confinement/encapsulation used as a stabilisation and property-engineering lever.</li>
+      </ul>
+      <p class="muted">
+        Related: “Picoperovskites…” (Advanced Materials, 2023).
+      </p>
+    </div>
+  </div>
+
+  <div class="modal" id="m-nw" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Extreme nanowires project">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel">
+      <button class="modal__close" type="button" data-close aria-label="Close">×</button>
+      <h2>Confined extreme nanowires</h2>
+      <p>
+        Encapsulation of technologically important materials in ultranarrow templates to form 1D atomic chains and motifs with tunable properties and enhanced stability.
+      </p>
+      <h3 class="h3">Key points</h3>
+      <ul class="bullets">
+        <li>Template-directed formation of 1D chains/motifs otherwise unstable in bulk.</li>
+        <li>Atomic-resolution imaging to connect motif geometry to properties.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="m-radial" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Radial vdW project">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel">
+      <button class="modal__close" type="button" data-close aria-label="Close">×</button>
+      <h2>1D radial van der Waals heterostructures</h2>
+      <p>
+        CNT/BN/MoS₂ radial heterostructures supporting coexisting excitons and highly mobile charge carriers, enabling ultrafast optoelectronics at atomic scale.
+      </p>
+      <h3 class="h3">Key points</h3>
+      <ul class="bullets">
+        <li>Radial stacking to co-locate optical excitation and carrier transport channels.</li>
+        <li>Correlative structural/optical measurements to interpret ultrafast response.</li>
+      </ul>
+      <p class="muted">Related: Nano Letters (2020) “Ultrafast Optoelectronic Processes in 1D Radial vdW Heterostructures”.</p>
+    </div>
+  </div>
+
+  <div class="modal" id="m-gst" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Phase-change devices project">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel">
+      <button class="modal__close" type="button" data-close aria-label="Close">×</button>
+      <h2>In-situ microscopy of phase-change devices</h2>
+      <p>
+        Elemental mapping of nonvolatile GeSbTe memory cells and selectors, linked to device-scale electrical behaviour for improved reliability and scaling.
+      </p>
+      <h3 class="h3">Key points</h3>
+      <ul class="bullets">
+        <li>Compositional mapping and structural evolution under relevant conditions.</li>
+        <li>Evidence linked back to device behaviour and scaling constraints.</li>
+      </ul>
+      <p class="muted">Related: Faraday Discussions (2019) “Towards a 3D GeSbTe Phase Change Memory…”</p>
+    </div>
+  </div>
+
+  <script src="assets/js/portfolio.js"></script>
+</body>
+</html>
